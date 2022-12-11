@@ -28,5 +28,17 @@
     return YES;
 }
 
+// Data source
+- (NSView *)tableView:(NSTableView *)tableView viewForTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row
+{
+    return nil;
+}
+
+- (NSInteger)numberOfRowsInTableView:(NSTableView *)tableView
+{
+    return 0;
+}
+
+// Delegate
 
 @end
